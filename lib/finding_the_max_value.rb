@@ -5,7 +5,8 @@ def find_max_value(array)
   while array[counter] do
     if array[n] > currentmax
       currentmax = array[n]
-  end
-  currentmax
+    end
+  counter += 1
   end 
+  currentmax
 end
